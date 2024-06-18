@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+header  ul li
+{
+  @apply px-5; 
+}
+
+
+
+.mobnav
+{
+  @apply fixed top-10 right-0 bg-gray-600 w-full h-fit
+}
+
+.mobnav li
+{
+  @apply border-b-2 p-1;
+}
+
+.skill div
+{
+  @apply border-2 w-24 text-center m-5 hover:w-24 hover:h-7;
+}
+
+figcaption
+{
+  @apply text-center w-[400px] h-[188px] absolute left-0 right-0 bottom-6 top-0 sm:top-5 bg-blue-300 duration-500 opacity-0 hover:opacity-100 sm:py-5;
+}
+
+figure
+{
+  @apply relative sm:py-5;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+.btn
+{
+  @apply bg-blue-400 px-2 py-2 border-2 hover:border-white rounded
+}
