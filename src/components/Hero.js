@@ -10,11 +10,13 @@ const Hero = () => {
     }
   return (
     <div>
-        <section className='flex  flex-col md:flex-row px-5 py-32 bg-blue-400 justify-center' >
+        <section className='flex  flex-col md:flex-row px-5 py-32 text-white bg-blue-400 justify-center' >
             <div className='md:w-1/2 flex flex-col'>
                 <h1 className='text-white text-6xl font-hero-font'>Hi,&#128075; <br/> I'm Hephzibai
                     <p className='text-2xl'>{config.subtitle}</p>
                 </h1>
+                <br/>
+                <a target="_blank" href='https://letuscrack.com/author/hephzibai/' className='bg-blue-500 w-36 h-7 rounded text-center'>Visit My Article</a>
                 <div className='flex py-10 '>
                     <a target="_blank" href={config.linkedin} className='pr-5 text-white hover:text-black'><AiOutlineLinkedin size={40}/></a>
                     <a target="_blank" href={config.github} className='pr-5 text-white hover:text-black'><AiOutlineGithub size={40}/></a>

@@ -20,7 +20,7 @@ const Skill = () => {
 
   return (
     <div className='text-white bg-blue-400 py-10 px-5'>
-      <h1 className='text-4xl font-bold border-b-2 w-[180px]'>My Skills</h1>
+      <h1 className='text-4xl font-bold border-b-2 w-[180px] '>My Skills</h1>
       <div className='flex flex-col md:flex-row mt-5 justify-center'>
         {config.skills.map((skillCategory, index) => (
           <div key={index} className={`px-5 ${index !== config.skills.length - 1 ? 'md:border-r-4' : ''} mb-5 md:mb-0`}>
