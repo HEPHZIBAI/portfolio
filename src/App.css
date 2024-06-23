@@ -75,5 +75,5 @@ html
 }
 .btn
 {
-  @apply bg-blue-400 px-2 py-2 border-2 hover:border-white rounded
+  @apply bg-blue-400 px-2 py-2 border-2 hover:border-white hover:border-4 rounded
 }

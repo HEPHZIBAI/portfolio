@@ -5,7 +5,7 @@ import RR from '../assets/Hephzibai.pdf'
 const Resume = () => {
   return (
     <div>
-        <section id="resume" className='flex flex-col md:flex-row justify-center bg-blue-500 px-5 py-6'>
+        <section id="resume" className='flex flex-col md:flex-row justify-center bg-blue-400 px-5 py-6'>
             <div className='w-1/2 md:w-1/2 flex md:justify-end'>
                 <img src={Resum} />
             </div>

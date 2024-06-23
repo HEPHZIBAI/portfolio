@@ -10,6 +10,7 @@ import Scroll from './components/Scroll'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Code from './components/Code'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Hero/>
       <Abouta/>
       <Skill/>
+      <Code/>
       <Resume/>
       <Project/>
       <Form/>
